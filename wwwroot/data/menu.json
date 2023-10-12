@@ -1,0 +1,151 @@
+﻿[
+  {
+    "path": "/",
+    "name": "Home",
+    "key": "home",
+    "icon": "home",
+    "children": [
+      {
+        "path": "/",
+        "name": "Home page",
+        "key": "home.root"
+      },
+      {
+        "path": "/home/dashboard",
+        "name": "Dashboard",
+        "key": "home.dashboard"
+      },
+      {
+        "path": "/home/messages",
+        "name": "Messages",
+        "key": "home.messages"
+      },
+      {
+        "path": "/home/notifications",
+        "name": "Notifications",
+        "key": "home.notifications"
+      }
+    ]
+  },
+  {
+    "path": "/projects/list",
+    "name": "Projects",
+    "key": "projects",
+    "icon": "project",
+    "children": [
+      {
+        "path": "/projects/list",
+        "name": "List",
+        "key": "projects.root"
+      }
+    ]
+  },
+  {
+    "path": "/account/",
+    "name": "Account",
+    "key": "account",
+    "icon": "setting",
+    "children": [
+      {
+        "path": "/account/",
+        "name": "Account settings",
+        "key": "account.root"
+      }
+    ]
+  },
+  {
+    "path": "/products/",
+    "name": "Products",
+    "key": "products",
+    "icon": "profile",
+    "children": [
+      {
+        "path": "/products/comments/",
+        "name": "Comments",
+        "key": "comments",
+        "icon": "comment",
+        "children": [
+          {
+            "path": "/products/comments/list",
+            "name": "List",
+            "key": "comments.root"
+          },
+          {
+            "path": "/products/comments/dashboard",
+            "name": "Dashboard",
+            "key": "comments.dashboard"
+          },
+          {
+            "path": "/products/comments/integration",
+            "name": "Integration assistant",
+            "key": "comments.assistant"
+          }
+        ]
+      },
+      {
+        "path": "/products/contact/list",
+        "name": "Contact",
+        "key": "contact",
+        "icon": "contacts",
+        "children": [
+          {
+            "path": "/products/contact/list",
+            "name": "List",
+            "key": "contact.root"
+          },
+          {
+            "path": "/products/contact/dashboard",
+            "name": "Dashboard",
+            "key": "contact.dashboard"
+          },
+          {
+            "path": "/products/contact/integration",
+            "name": "Integration assistant",
+            "key": "contact.assistant"
+          }
+        ]
+      },
+      {
+        "path": "/products/subscribe/list",
+        "name": "Subscribe",
+        "key": "subscribe",
+        "icon": "subnode",
+        "children": [
+          {
+            "path": "/products/subscribe/list",
+            "name": "List",
+            "key": "subscribe.root"
+          },
+          {
+            "path": "/products/subscribe/dashboard",
+            "name": "Dashboard",
+            "key": "subscribe.dashboard"
+          },
+         {
+            "path": "/products/subscribe/integration",
+            "name": "Integration assistant",
+            "key": "subscribe.assistant"
+          }
+        ]
+      },
+      {
+        "path": "/products/protect/list",
+        "name": "Protect",
+        "key": "protect",
+        "icon": "file-protect",
+        "children": [
+          {
+            "path": "/products/protect/list",
+            "name": "List",
+            "key": "protect.root"
+          },
+          {
+            "path": "/products/protect/integration",
+            "name": "Integration assistant",
+            "key": "protect.assistant"
+          }
+        ]
+      }
+    ]
+  }
+]
