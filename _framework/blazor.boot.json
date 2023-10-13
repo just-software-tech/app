@@ -1,6 +1,7 @@
 {
   "cacheBootResources": true,
   "config": [
+    "appsettings.Development.json",
     "appsettings.json"
   ],
   "debugBuild": false,
@@ -12,7 +13,7 @@
       "AntDesign.Charts.dll": "sha256-XIYfTQx+0JPBMo6obSPwhlXIRTABEjSGycIAbG797Q8=",
       "AntDesign.dll": "sha256-8pYn2HH+KgZwLg5UGbHe9kcIKmYluWFGA1YpdMC9tEk=",
       "AntDesign.ProLayout.dll": "sha256-NRfKYdpU3aCZHVP1etEn\/DgRz6na2JNkktTYEJLTTxI=",
-      "JustApp.dll": "sha256-Q7bt\/nMbT8FxbogwLdmFRxnwO4XgnaKPamb1spPs3JU=",
+      "JustApp.dll": "sha256-2h+SJ8ZCH8OMiDae56jN5X0JVlExqAg+k5Y3HhB5Y5s=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-7fB8tyYOZ3JY\/tktOaYmY3TsMN1qoEMDGpIwilLrcAg=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-x4Q6AI8ediUryn7qFyx1LJK1uHYmJAKwOvEHWyvqF\/4=",
       "Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll": "sha256-VGaB03HIjFg4jeK7BomIFzlhhY3vW5N+jWuRqZkbJsY=",
@@ -24,7 +25,7 @@
       "Microsoft.AspNetCore.Metadata.dll": "sha256-MfFZJeghth0+8fGnHLAJ9ri4sBAOlvKKs7ABvPf+VSc=",
       "Microsoft.Authentication.WebAssembly.Msal.dll": "sha256-KWBDqDFraCh7qoRWoEQm3xwYzkjKWNeyYFZx4FIWBwE=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-ZoFJpXHoJedbg1un0Q6MDgXETKnWdNS9P8IqgPJbST8=",
-      "Microsoft.Extensions.Configuration.Binder.dll": "sha256-41WgPb0EYfJjMDfHyVVY6TaXYIhGu1ogPBzqVP\/xfu4=",
+      "Microsoft.Extensions.Configuration.Binder.dll": "sha256-WNwRa53IXCMqBfbstJkQMNHpUf9HsIW6bWQVeAC1FKQ=",
       "Microsoft.Extensions.Configuration.dll": "sha256-hSXF4L3T5uST9yVfWsMxxNA2iXmdvpBQHPt9KidfiRA=",
       "Microsoft.Extensions.Configuration.Json.dll": "sha256-Q5AqJneA2TZnzC0IYzBx6j\/tHRhWAeMbpH3BsV7KgWg=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-dPUt06tbZwv+21J\/aLjS1EnyGgZKPmEsJKrpBipkzTg=",
