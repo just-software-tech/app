@@ -1,0 +1,151 @@
+﻿[
+  {
+    "path": "/app/",
+    "name": "Home",
+    "key": "home",
+    "icon": "home",
+    "children": [
+      {
+        "path": "/app/",
+        "name": "Home page",
+        "key": "home.root"
+      },
+      {
+        "path": "/app/home/dashboard",
+        "name": "Dashboard",
+        "key": "home.dashboard"
+      },
+      {
+        "path": "/app/home/messages",
+        "name": "Messages",
+        "key": "home.messages"
+      },
+      {
+        "path": "/app/home/notifications",
+        "name": "Notifications",
+        "key": "home.notifications"
+      }
+    ]
+  },
+  {
+    "path": "/app/projects/list",
+    "name": "Projects",
+    "key": "projects",
+    "icon": "project",
+    "children": [
+      {
+        "path": "/app/projects/list",
+        "name": "List",
+        "key": "projects.root"
+      }
+    ]
+  },
+  {
+    "path": "/app/account/",
+    "name": "Account",
+    "key": "account",
+    "icon": "setting",
+    "children": [
+      {
+        "path": "/app/account/",
+        "name": "Account settings",
+        "key": "account.root"
+      }
+    ]
+  },
+  {
+    "path": "/app/products/",
+    "name": "Products",
+    "key": "products",
+    "icon": "profile",
+    "children": [
+      {
+        "path": "/app/products/comments/",
+        "name": "Comments",
+        "key": "comments",
+        "icon": "comment",
+        "children": [
+          {
+            "path": "/app/products/comments/list",
+            "name": "List",
+            "key": "comments.root"
+          },
+          {
+            "path": "/app/products/comments/dashboard",
+            "name": "Dashboard",
+            "key": "comments.dashboard"
+          },
+          {
+            "path": "/app/products/comments/integration",
+            "name": "Integration assistant",
+            "key": "comments.assistant"
+          }
+        ]
+      },
+      {
+        "path": "/app/products/contact/list",
+        "name": "Contact",
+        "key": "contact",
+        "icon": "contacts",
+        "children": [
+          {
+            "path": "/app/products/contact/list",
+            "name": "List",
+            "key": "contact.root"
+          },
+          {
+            "path": "/app/products/contact/dashboard",
+            "name": "Dashboard",
+            "key": "contact.dashboard"
+          },
+          {
+            "path": "/app/products/contact/integration",
+            "name": "Integration assistant",
+            "key": "contact.assistant"
+          }
+        ]
+      },
+      {
+        "path": "/app/products/subscribe/list",
+        "name": "Subscribe",
+        "key": "subscribe",
+        "icon": "subnode",
+        "children": [
+          {
+            "path": "/app/products/subscribe/list",
+            "name": "List",
+            "key": "subscribe.root"
+          },
+          {
+            "path": "/app/products/subscribe/dashboard",
+            "name": "Dashboard",
+            "key": "subscribe.dashboard"
+          },
+         {
+            "path": "/app/products/subscribe/integration",
+            "name": "Integration assistant",
+            "key": "subscribe.assistant"
+          }
+        ]
+      },
+      {
+        "path": "/app/products/protect/list",
+        "name": "Protect",
+        "key": "protect",
+        "icon": "file-protect",
+        "children": [
+          {
+            "path": "/app/products/protect/list",
+            "name": "List",
+            "key": "protect.root"
+          },
+          {
+            "path": "/app/products/protect/integration",
+            "name": "Integration assistant",
+            "key": "protect.assistant"
+          }
+        ]
+      }
+    ]
+  }
+]
