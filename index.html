@@ -209,6 +209,7 @@
 <script src="https://unpkg.com/@antv/g2plot@1.1.28/dist/g2plot.js"></script>
 <script src="_content/AntDesign.Charts/ant-design-charts-blazor.js"></script>
 <script>
+    var baseUrl = "/"
     if(window.location.hostname.includes("localhost")){
         Blazor.start(
             {
@@ -217,12 +218,22 @@
         );
     }
     else{
+        baseUrl = "/app"
         Blazor.start(
             {
                 environment:"Production"
             }
         );
     }
+</script>
+
+<script>
+    setTimeout(() => {
+        var el = document.getElementsByClassName("ant-pro-global-header-logo")[0]
+        var el2 = el.getElementsByTagName("a")[0]
+        el2.setAttribute("href",baseUrl)
+    }, 1000);
+    
 </script>
 </body>
 
