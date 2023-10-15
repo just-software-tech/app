@@ -228,10 +228,27 @@
 </script>
 
 <script>
-    setTimeout(() => {
-        var el = document.getElementsByClassName("ant-pro-global-header-logo")[0]
+var fn = ()=>{
+    var el = document.getElementsByClassName("ant-pro-global-header-logo")[0]
         var el2 = el.getElementsByTagName("a")[0]
         el2.setAttribute("href",baseUrl)
+    
+}
+    setTimeout(() => {
+        try{
+fn();
+        }
+        catch(e){
+            setTimeout(() => {
+        try{
+fn();
+        }
+        catch(e){
+
+        }
+    }, 1000);
+    
+        }
     }, 1000);
     
 </script>
