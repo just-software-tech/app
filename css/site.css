@@ -134,3 +134,9 @@ float:right;
   color:white;
   background-color: blue;
 }
+
+.actionDiv{
+  padding: 20px;
+    text-align: center;
+    width: 100%;
+}

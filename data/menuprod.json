@@ -129,14 +129,14 @@
         ]
       },
       {
-        "path": "/app/products/protect/list",
+        "path": "/app/products/protect/dashboard",
         "name": "Protect",
         "key": "protect",
         "icon": "file-protect",
         "children": [
           {
-            "path": "/app/products/protect/list",
-            "name": "List",
+            "path": "/app/products/protect/dashboard",
+            "name": "Dashboard",
             "key": "protect.root"
           },
           {
